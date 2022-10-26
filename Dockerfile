@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:22.04
 
 RUN apt update -y && apt install openssh-server nano sudo -y && service ssh start
 
